@@ -18,6 +18,8 @@ import { FormsModule } from '@angular/forms';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule ({
@@ -28,7 +30,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graficas1Component,
         IncrementadorComponent,
         GraficaDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
         ],
 
          exports: [

@@ -13,6 +13,8 @@ export class SidebarService {
         {titulo: 'Dashboard', url: '/dashboard'},
         {titulo: 'progressBar', url: '/progress'},
         {titulo: 'Gráficas', url: '/graficas1'},
+        {titulo: 'promesas', url: '/promesas'},
+        {titulo: 'rxjs', url: '/rxjs'}
       ]
     }
   ];
