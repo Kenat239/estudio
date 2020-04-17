@@ -6,6 +6,10 @@ export const environment = {
   production: false
 };
 
+export const puerto = 5001;
+
+export const BACKEND = `http://localhost:${puerto}/`;
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

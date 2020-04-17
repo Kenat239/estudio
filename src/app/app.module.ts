@@ -9,9 +9,10 @@ import { APP_ROUTES } from './app.routes';
 
 import {PagesModule} from './pages/pages.module';
 import { ServiceModule } from './services/service.module';
+import { HttpClientModule } from '@angular/common/http';
 
 // temporal
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // componentes
 import { AppComponent } from './app.component';
@@ -34,7 +35,9 @@ import { RegisterComponent } from './login/register.component';
     APP_ROUTES,
     PagesModule,
     FormsModule,
-    ServiceModule
+    ServiceModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
