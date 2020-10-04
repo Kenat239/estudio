@@ -8,6 +8,7 @@ export class Usuario {
         public _id?: string,
         public apellidoP?: string,
         public apellidoM?: string,
+        public img?: string
 
     ) { }
 }
